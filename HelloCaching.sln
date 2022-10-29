@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForCachingRedis31", "de
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForCachingMemory31", "demoForCachingMemory31\demoForCachingMemory31.csproj", "{327B320E-AD2F-4E0C-9877-59AA876F3F8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForCachingEasy31", "demoForCachingEasy31\demoForCachingEasy31.csproj", "{B7255B66-1A99-44F5-AA80-88BD723D5E56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForCachingEasy31", "demoForCachingEasy31\demoForCachingEasy31.csproj", "{B7255B66-1A99-44F5-AA80-88BD723D5E56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForTeslaOrder", "demoForTeslaOrder\demoForTeslaOrder.csproj", "{9DFE521E-E2B4-489B-858B-924AB742C216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForTeslaOrder", "demoForTeslaOrder\demoForTeslaOrder.csproj", "{9DFE521E-E2B4-489B-858B-924AB742C216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForCachingSqlServer31", "demoForCachingSqlServer31\demoForCachingSqlServer31.csproj", "{35420F14-6DBF-451A-80E0-335179E24DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForCachingSqlServer31", "demoForCachingSqlServer31\demoForCachingSqlServer31.csproj", "{35420F14-6DBF-451A-80E0-335179E24DEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForCachingObjectPool31", "demoForCachingObjectPool31\demoForCachingObjectPool31.csproj", "{CA39B6E7-C5ED-48AD-B85D-BBB097B3A28C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForCachingObjectPool31", "demoForCachingObjectPool31\demoForCachingObjectPool31.csproj", "{CA39B6E7-C5ED-48AD-B85D-BBB097B3A28C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForCachingCompression31", "demoForCachingCompression31\demoForCachingCompression31.csproj", "{A1CA5D1D-6727-4AD5-9E9C-D404FFCC70E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoForCachingCompression31", "demoForCachingCompression31\demoForCachingCompression31.csproj", "{A1CA5D1D-6727-4AD5-9E9C-D404FFCC70E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoForCachingMemcached31", "demoForCachingMemcached31\demoForCachingMemcached31.csproj", "{4DEC8EDC-AE0E-49F9-8CEC-3CF2615ECB67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A1CA5D1D-6727-4AD5-9E9C-D404FFCC70E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1CA5D1D-6727-4AD5-9E9C-D404FFCC70E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1CA5D1D-6727-4AD5-9E9C-D404FFCC70E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEC8EDC-AE0E-49F9-8CEC-3CF2615ECB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEC8EDC-AE0E-49F9-8CEC-3CF2615ECB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEC8EDC-AE0E-49F9-8CEC-3CF2615ECB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEC8EDC-AE0E-49F9-8CEC-3CF2615ECB67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
